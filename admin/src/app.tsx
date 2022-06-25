@@ -46,6 +46,7 @@ class App extends GenericApp {
 				{this.renderError()}
 				{this.renderToast()}
 				{this.renderSaveCloseButtons()}
+				<p>Test</p>
 			</div>
 		);
 	}

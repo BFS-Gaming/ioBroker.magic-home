@@ -120,7 +120,7 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 ## License
 MIT License
 
-Copyright (c) 2022 BFS-Gaming <bennetschubert@gmx.de>
+Copyright (c) 2022 BFS-Gaming 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
