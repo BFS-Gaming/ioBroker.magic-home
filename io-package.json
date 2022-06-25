@@ -1,0 +1,73 @@
+{
+	"common": {
+		"name": "magic-home",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Magic Home",
+		"titleLang": {
+			"en": "Magic Home",
+			"de": "Magisches Zuhause",
+			"ru": "Волшебный дом",
+			"pt": "Casa mágica",
+			"nl": "Magisch Huis",
+			"fr": "Accueil magique",
+			"it": "Casa magica",
+			"es": "Hogar Mágico",
+			"pl": "Magiczny Dom",
+			"zh-cn": "魔法之家"
+		},
+		"desc": {
+			"en": "This adapter lets you control Magic Home devices with your IoBroker",
+			"de": "Mit diesem Adapter können Sie Magic Home-Geräte mit Ihrem IoBroker steuern",
+			"ru": "Этот адаптер позволяет управлять устройствами Magic Home с помощью IoBroker.",
+			"pt": "Este adaptador permite controlar dispositivos Magic Home com seu IoBroker",
+			"nl": "Met deze adapter kunt u Magic Home-apparaten bedienen met uw IoBroker",
+			"fr": "Cet adaptateur vous permet de contrôler les appareils Magic Home avec votre IoBroker",
+			"it": "Questo adattatore ti consente di controllare i dispositivi Magic Home con il tuo IoBroker",
+			"es": "Este adaptador te permite controlar dispositivos Magic Home con tu IoBroker",
+			"pl": "Ten adapter umożliwia sterowanie urządzeniami Magic Home za pomocą IoBroker",
+			"zh-cn": "此适配器可让您使用 IoBroker 控制 Magic Home 设备"
+		},
+		"authors": ["BFS-Gaming <bennetschubert@gmx.de>"],
+		"keywords": ["magic-home", "lights"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "build/main.js",
+		"icon": "magic-home.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/BFS-Gaming/ioBroker.magic-home/main/admin/magic-home.png",
+		"readme": "https://github.com/BFS-Gaming/ioBroker.magic-home/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "lighting",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"materialize": true,
+		"eraseOnUpload": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
