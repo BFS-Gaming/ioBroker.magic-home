@@ -1,0 +1,28 @@
+{
+    "i18n": true,
+    "type": "tabs",
+    "items": {
+        "_options": {
+            "type": "panel",
+            "label": "options",
+            "items": {
+                "testss": {
+                    "type": "text",
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "label": "options",
+                    "help": "tess"
+                },
+                "testsss": {
+                    "type": "text",
+                    "sm": 12,
+                    "md": 6,
+                    "lg": 6,
+                    "label": "options",
+                    "help": "tess"
+                }
+            }
+        }
+    }
+}

@@ -41,14 +41,14 @@
 			"pl": "Ten adapter umożliwia sterowanie urządzeniami Magic Home za pomocą IoBroker",
 			"zh-cn": "此适配器可让您使用 IoBroker 控制 Magic Home 设备"
 		},
-		"authors": ["BFS-Gaming <bennetschubert@gmx.de>"],
+		"authors": ["BFS-Gaming"],
 		"keywords": ["magic-home", "lights"],
 		"license": "MIT",
 		"platform": "Javascript/Node.js",
 		"main": "build/main.js",
 		"icon": "magic-home.png",
 		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/BFS-Gaming/ioBroker.magic-home/main/admin/magic-home.png",
+		"extIcon": "https://raw.githubusercontent.com/BFS-Gaming/ioBroker.magic-home/master/admin/magic-home.png",
 		"readme": "https://github.com/BFS-Gaming/ioBroker.magic-home/blob/main/README.md",
 		"loglevel": "info",
 		"mode": "daemon",
@@ -57,10 +57,18 @@
 		"connectionType": "local",
 		"dataSource": "poll",
 		"materialize": true,
+		"adminUI": {
+			"config": "json"
+		},
 		"eraseOnUpload": true,
 		"dependencies": [
 			{
 				"js-controller": ">=2.0.0"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.1.28"
 			}
 		]
 	},
